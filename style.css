@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(ash-edmonds-0aWZdK8nK2I-unsplash.jpg);
+  background-size: cover;
+}
+.nav-section {
+  margin-top: 30px;
+  color: #3b5bdb;
+  display: flex;
+  justify-content: space-between;
+  cursor: default;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  gap: 20px;
+}
+#right {
+  color: #15aabf;
+  margin-left: 20px;
+  font-size: 40px;
+}
+#left {
+  margin-right: 20px;
+}
+.first:hover,
+.second:hover,
+.third:hover {
+  text-decoration: underline rgb(169, 4, 4);
+}
+.about {
+  color: cyan;
+
+  text-align: center;
+  font-size: 50px;
+}
+.about-top {
+  margin-top: 10rem;
+}
+.clay {
+  color: yellow;
+}
+#hired {
+  margin-right: 20px;
+  color: yellow;
+  background-color: #15aabf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#hired:hover {
+  text-decoration: underline;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.all-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.ending {
+  text-align: center;
+  margin-top: 30px;
+}
+.contact {
+  font-size: 40px;
+  color: #98e5f0;
+  cursor: default;
+}
+#email {
+  width: 18rem;
+  height: 50px;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 10px 70px;
+  display: block;
+  margin-left: 35rem;
+  border: 1px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #3b5bdb;
+  color: white;
+  font-size: 20px;
+}
